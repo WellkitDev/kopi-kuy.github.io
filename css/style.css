@@ -1,0 +1,29 @@
+body{
+    height: 3000px;
+    overflow-x: hidden;
+}
+
+.bg-home{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar{
+    transition: all 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: chocolate;
+}
+.navbar-scrolled{
+    background-color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
